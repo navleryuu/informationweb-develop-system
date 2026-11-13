@@ -79,6 +79,64 @@ Ikuti tahapan berikut secara berurutan:
 
 Sebelum mengerjakan proyek, baca file ini dan pelajari panduan, keterampilan agen, serta alur kerja framework yang relevan.
 
+## 9. Penggunaan Skill Berdasarkan Tahapan
+
+Gunakan skill yang tersedia di folder `skills/` sesuai kebutuhan proyek.
+
+### A. Analisis proposal
+Gunakan `skills/pembaca-proposal/SKILL.md` untuk membaca proposal, memahami Bab I–III, mengidentifikasi kebutuhan penelitian, dan membuat ringkasan proposal.
+
+### B. Validasi metode penelitian
+Gunakan `skills/validasi-metode/SKILL.md` untuk memahami algoritma, memeriksa rumus, mengidentifikasi variabel, menyusun perhitungan manual, dan menyiapkan kasus pengujian.
+
+### C. Perancangan sistem
+Gunakan `skills/perancang-sistem/SKILL.md` untuk menyusun kebutuhan sistem, hak akses pengguna, alur proses, rancangan basis data, dan rancangan antarmuka.
+
+### D. Desain UI/UX
+Gunakan `skills/desain-ui-ux/SKILL.md` sebelum mengimplementasikan antarmuka utama atau ketika melakukan perubahan desain yang signifikan.
+
+Pastikan desain memiliki hierarki visual yang jelas, konsisten, responsif, mudah digunakan, dan sesuai dengan karakteristik proyek. Jangan hanya membuat tampilan yang berfungsi tanpa memperhatikan kualitas visual.
+
+### E. Pengembangan kode
+Jika tersedia, gunakan `skills/pengembang-kode/SKILL.md` untuk membuat fitur, mengembangkan aplikasi, memperbaiki kesalahan, dan merevisi kode sumber.
+
+### F. Pengujian dan audit
+Gunakan skill pengujian dan audit jika tersedia untuk memverifikasi fungsi, konsistensi metode, keamanan, dan hasil implementasi.
+
+Jika suatu skill belum tersedia, jangan menganggap skill tersebut sudah dibaca atau dijalankan. Gunakan panduan umum dalam file ini dan laporkan kekurangan framework jika relevan.
+
+## 10. Aturan Desain dan Pengembangan Website
+
+1. Pahami kebutuhan dan karakteristik pengguna sebelum menentukan desain.
+2. Tentukan struktur halaman, navigasi, komponen, dan arah visual berdasarkan kebutuhan proyek.
+3. Gunakan sistem desain yang konsisten untuk warna, tipografi, jarak, tombol, formulir, tabel, dan komponen lainnya.
+4. Pastikan halaman responsif pada desktop, tablet, dan ponsel.
+5. Perhatikan kondisi loading, data kosong, validasi gagal, keberhasilan operasi, dan pesan kesalahan.
+6. Jangan menggunakan data palsu seolah-olah merupakan data nyata.
+7. Jangan menganggap desain selesai hanya karena halaman dapat dibuka.
+8. Jika proyek sudah memiliki desain atau komponen yang berjalan baik, pertahankan konsistensinya kecuali pengguna meminta perubahan.
+9. Jika pengguna memberikan referensi desain, gunakan referensi tersebut sebagai acuan tanpa mengabaikan kebutuhan dan fungsi sistem.
+10. Jika tersedia alat untuk menjalankan aplikasi dan memeriksa tampilan melalui browser, gunakan alat tersebut untuk memeriksa hasil implementasi.
+
+## 11. Kriteria Penyelesaian Pekerjaan
+
+Sebelum menyatakan pekerjaan selesai, periksa hal-hal berikut sesuai ruang lingkup tugas:
+
+- Kebutuhan yang disepakati telah diimplementasikan.
+- Kode mengikuti struktur dan konvensi proyek.
+- Penerapan metode sesuai spesifikasi yang disetujui.
+- Perubahan tidak merusak fitur yang berkaitan.
+- Pengujian yang relevan telah dijalankan jika lingkungan memungkinkan.
+- Antarmuka telah diperiksa jika pekerjaan mencakup desain atau perubahan tampilan.
+- Masalah yang belum terselesaikan telah didokumentasikan.
+
+Bedakan status pekerjaan menjadi:
+- **Selesai:** implementasi dan pemeriksaan yang diperlukan telah dilakukan.
+- **Sebagian selesai:** sebagian kebutuhan masih belum terpenuhi.
+- **Terhambat:** pekerjaan tidak dapat dilanjutkan karena kendala yang dijelaskan.
+
+Jangan menyatakan pekerjaan lulus pengujian jika belum ada bukti pengujian yang mendukungnya.
+
 Selanjutnya, periksa dokumen dan kode sumber proyek aktif sebelum menentukan tindakan.
 
 Jangan menganggap framework ini sudah memuat semua kebutuhan proyek. Proposal, instruksi pengguna, dan kondisi aktual kode sumber tetap harus diperiksa.
